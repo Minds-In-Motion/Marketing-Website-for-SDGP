@@ -1,0 +1,74 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.new_footer_area {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 50px 0; /* Adjust spacing */
+}
+
+.new_footer_top {
+    padding-bottom: 30px; /* Adjust spacing */
+}
+
+.new_footer_top h3 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Adjust spacing */
+}
+
+.f_subscribe_two {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.f_subscribe_two input[type="text"] {
+    width: 200px; /* Adjust width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.f_subscribe_two button {
+    padding: 10px 20px;
+    background-color: #fff; /* White button background */
+    color: #000; /* Black button text color */
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px; /* Adjust spacing */
+    cursor: pointer;
+}
+
+.f_widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.f_widget ul li {
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+.f_widget a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+}
+
+.footer_bottom {
+    background-color: #000; /* Black background */
+    padding: 20px 0; /* Adjust spacing */
+    color: #fff; /* White text color */
+}
+
+.footer_bottom a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+}
