@@ -1,0 +1,173 @@
+/* Apply default styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    line-height: 1.5;
+    background-color: #f3f4f6; /* Light gray background */
+}
+
+/* Header styles */
+
+
+/* Section styles */
+section {
+    padding: 2rem 0; /* Add padding top and bottom */
+}
+
+/* Section content styles */
+section div {
+    max-width: 960px; /* Limit width of content */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+/* Heading styles */
+h2 {
+    font-size: 2.5rem; /* Larger font size for headings */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 1.5rem; /* Add space below heading */
+    color: #333; /* Dark gray text color */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.1rem; /* Medium font size for paragraphs */
+    color: #666; /* Medium gray text color */
+    margin-bottom: 1rem; /* Add space below paragraphs */
+}
+
+/* Grid styles */
+.grid {
+    display: grid; /* Use CSS grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 2rem; /* Add gap between grid items */
+}
+
+/* Team member container styles */
+.items-center {
+    background-color: #fff; /* White background for team member containers */
+    padding: 2rem; /* Add padding inside containers */
+    border-radius: 0.5rem; /* Rounded corners for containers */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+/* Image styles */
+img {
+    display: block; /* Ensure images are block-level elements */
+    width: 100%; /* Make images fill their containers */
+    border-radius: 0.25rem; /* Slight border radius for images */
+}
+
+/* Team member name styles */
+h3 {
+    font-size: 1.5rem; /* Large font size for names */
+    margin-top: 1rem; /* Add space above names */
+    color: #333; /* Dark gray text color */
+}
+
+/* Team member role styles */
+span {
+    font-size: 1.1rem; /* Medium font size for roles */
+    color: #666; /* Medium gray text color */
+    display: block; /* Ensure roles are on a new line */
+    margin-bottom: 0.5rem; /* Add space below roles */
+}
+
+/* Team member description styles */
+p {
+    color: #666; /* Medium gray text color */
+    margin-bottom: 1rem; /* Add space below descriptions */
+}
+
+/* Additional links styles */
+ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Use flexbox for links */
+    justify-content: center; /* Center links horizontally */
+}
+
+/* Individual link styles */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #4285f4; /* Blue color for links */
+    margin: 0 0.5rem; /* Add space between links */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+    color: #2a65f7; /* Darker blue color on hover */
+}
+
+/* SVG icon styles */
+svg {
+    width: 1.5rem; /* Set width of SVG icons */
+    height: 1.5rem; /* Set height of SVG icons */
+    margin-right: 0.25rem; /* Add space to the right of icons */
+}
+
+/* CSS styles for the navigation bar */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(138, 138, 255);
+}
+
+.logo-container {
+    width: 80px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.header-text {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+nav {
+    padding: 10px 20px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #66c0f4;
+}
+
+.navbar{
+    
+    flex: 1;
+    align-items: -20%;
+}
+.header-text {
+    font-family: 'Serif', sans-serif;
+}
